@@ -145,8 +145,8 @@ function Index() {
               <PhoneIcon className="h-9 w-9 text-gold" />
               <h3 className="mt-4 font-display text-2xl">You call, I answer</h3>
               <p className="mt-2 text-sm leading-relaxed text-ink-muted">
-                No call centers, no tickets. Reach me directly at {PHONE_DISPLAY}
-                whenever a question comes up.
+                No call centers, no tickets. Reach me directly at{" "}
+                {PHONE_DISPLAY} whenever a question comes up.
               </p>
             </Reveal>
             <Reveal direction="right" delay={240}>
